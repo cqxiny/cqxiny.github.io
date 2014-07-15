@@ -1,0 +1,70 @@
+@charset "utf-8";
+/**
+ * Basic CSS for the whole project.
+ * @author zollty
+ * @since 2012-12-26
+ */
+html,body,div,span,iframe,p,pre,a,code,img,dl,dt,dd,ol,ul,li,fieldset,form,
+label,legend,table,caption,tbody,tfoot,tr,th,td{ margin:0; padding:0; border:0; font-size:100%; font:inherit; vertical-align:baseline;}
+
+body{font-family: "微软雅黑", Tahoma, Arial, sans-serif; background: #FCFCFC; }
+body,p,label,ol,ul,li,a,table,input,dl,dt,dd,textarea{font-size:14px;}
+
+input,label,select,option,textarea,button,fields{font-family: "微软雅黑", Tahoma, Arial, sans-serif;}
+a{font-family: "微软雅黑", Arial, sans-serif; }
+
+ol,ul,li{list-style: none;}
+table{ border-collapse:collapse; border-spacing: 0; }
+img { 
+	vertical-align:middle; 
+	border:0 none;
+}
+
+a:hover { 
+	color:#000; 
+	text-decoration:none; 
+	cursor:pointer;
+}
+a {
+	color:#0088CC; 
+	text-decoration:underline;
+}
+
+td,th{
+	height:20px;
+	line-height:20px;
+	padding:2px 4px;
+	vertical-align:middle;
+	border:#aac1d6 1px solid; 
+	}
+td{ text-align:left; color:#000; }
+th{ background:#ccc; text-align:center; color:#3380c9; font-weight:normal; }
+
+/* Clear Fix */
+.clearfix:after {
+	content:".";
+	display:block;
+	clear:both;
+	visibility:hidden;
+	line-height:0;
+	height:0;
+}
+.clearfix {
+	display:inline-block;
+}
+html[xmlns] .clearfix {
+	display:block;
+}
+* html .clearfix {
+	heigth: 1%;
+}
+/* end of clearfix */
+
+.wpdiv {
+	width: 120px;
+	text-align: right;
+	display: inline-block;
+	display: -moz-inline-stack;
+	zoom: 1;
+	*display: inline;
+}

@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+<title>重庆信圆电器有限公司</title>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../resources/base/css/main.css" type="text/css" />
+
+<!-- 基础CSS -->
+<link rel="stylesheet" href="../resources/plugins/nivoSlider/css/nivo-slider.css" type="text/css" media="screen" />
+<!-- 主题CSS -->
+<link rel="stylesheet" href="../resources/plugins/nivoSlider/themes/default/css/default.css" type="text/css" media="screen" />
+
+<style type="text/css">
+/* 自定义的样式 限制高度和宽度（保持和图片一致：宽度=图片） */
+.slider-wrapper {
+	width: 1200px;
+	margin: 0px auto;
+}
+/* 重新定义controlNav离图片的距离 */
+.theme-default .nivo-controlNav {
+	padding: 0px 0px 0px 0px;
+	margin: -10px 0px 0px 0px;
+}
+
+#p_ts1 {
+	font-size: 20px;
+	padding-left: 25px;
+	padding-bottom: 55px;
+}
+</style>
+<style type="text/css">
+
+.ztyclear{ /*相当于换行，调用<div class="clear"></div>*/
+  clear:both; /*没有float说明无条件换行，clear:both说明它单独占一行*/
+  margin:0px; 
+  padding:0px; 
+  height:0px; 
+  font-size:0px; 
+  line-height:0px; 
+  overflow: hidden;
+}
+#zty1 {
+  margin: 0 auto;
+  height:67px;
+  width: 1200px;
+  border:1px #899caa solid;
+}
+
+#zty1 #zty1Right {
+  float:right;
+  height:67px;
+  width:213px;
+}
+#zty1 #zty1Right #zty1Language {
+  /* float:right; */
+  height:25px;
+  padding-top:10px;
+}
+
+#zty1Language a {
+  color:#0088CC; 
+  text-decoration:none;
+}
+#zty1Language a:hover { 
+  color:#000; 
+  text-decoration:none; 
+  cursor:pointer;
+}
+
+#zty1 #zty1Right #zty1search {
+  /* clear:right; */
+  height:25px;
+  padding-left:26px;
+}
+
+#zty2 {
+  margin: 0 auto;
+  height:398px;
+  width: 1200px;
+  border-left:1px #899caa solid;
+  border-right:1px #899caa solid;
+  border-bottom:1px #899caa solid;
+}
+
+#zty2 #ztyNavTitle {
+  float:left;
+  height:36px;
+  line-height:32px;
+  border-right:1px solid #fff;
+  text-align:center;
+  color:#fff;
+  font:18px/32px "微软雅黑"; 
+  background:#062723 url(../resources/xyindex/img/slide-panel_10.png) 0 0 repeat-x;
+}
+
+/* ztyNav start */
+.ztyNav{
+	float:left;
+	width:800px;
+	height:36px;
+	background:#F9F9F9;
+	position:relative;
+    z-index:30;
+}
+.ztyNav ul{margin:0px;padding:0px;list-style-type:none;float:left;}
+.ztyNav li.msMnu_Item a.menu{
+	border:1px solid #f4f4f4;
+	color:#fff;
+	display:inline-block;/*display:block; */
+	padding:1px 18px; /*1px代表上下、18px代表左右*/
+	position:relative;
+	text-decoration:none;
+	font:18px/32px "微软雅黑";/*font-size:16px;*/
+	/*line-height:32px;*/
+	background:#062723 url(../resources/xyindex/img/slide-panel_03.png) 0 0 repeat-x;
+}
+.ztyNav li.msMnu_Item a.menu:hover{
+	border:1px solid #999;
+	background:#fff;
+	color:black;
+}
+.ztyNav li.msMnu_hove a.menu{
+	border:1px solid #999;
+	border-bottom:1px solid #fff;
+	background:#eee;/*#e4ecf4*/
+	color:#4f4f4f;
+	display:inline-block;
+	padding:1px 18px;
+	position:relative;
+	text-decoration:none;
+	font:18px/32px "微软雅黑";
+	z-index:1000;
+}
+.ztyNav .list{overflow:hidden;position:absolute;height:0px;top:40px;left:0;border-radius:0 8px 8px 8px;}
+.ztyNav .list div{background:#fff;overflow:hidden;padding:8px 0 2px 0;border:1px solid #999;float:left;}
+.ztyNav .list ul{padding:0px 8px;}
+
+.ztyNav li{ /* ztyNav下的全局li，只用在li.msMnu_Item中，其他li都要重载这5个属性 */
+	width:auto; 
+	line-height:32px; 
+	float:left; 
+	position:relative;
+}
+
+.ztyNav .list li.msMnu_List { /* 二级标题li */
+	/*background:#55D9C6;*/
+	width: 170px;
+	line-height: 26px;
+	float: left;
+	position: relative;
+}
+
+.ztyNav .list li h3 { /* 二级标题h3 */
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #4f4f4f;
+	border-bottom: 1px solid #e3e3e3;
+	line-height: 26px;
+	width: 100%;
+	float: left;
+}
+
+.ztyNav .list li.lis{ /* 三级标题li */
+	background:#fff; 
+	line-height:26px; 
+	float:left; 
+	position:relative; 
+	width:170px; 
+}
+.ztyNav .list li ul{width:170px;margin:0px;padding:5px 0;}
+.ztyNav .list li ul li.lis a{width:170px;height:22px;color:#0060a6;font-size:14px;line-height:20px;text-decoration:none;margin:0px;padding:0px;text-indent:3px;border:none;}
+.ztyNav .list li ul li.lis a:hover{color:#fff;background:#0060a6;}
+/* ztyNav end */
+
+
+</style>
+
+<style type="text/css">
+#ztyfooter {
+  margin: 0 auto;
+  width:1200px; 
+  height:38px;
+  background-color:#eee;
+  border-bottom:1px gray solid;
+  border-left:1px #899caa solid;
+  border-right:1px #899caa solid;
+  font-family:Tahoma;
+  text-align:center;
+  line-height:18px;
+  font-size: 12px;
+}
+
+#ztyfooter a {
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
+}
+
+#ztyfooter a:hover {
+  text-decoration: underline;
+  color: #399;
+}
+</style>
+
+
+<style type="text/css">
+#zty3 {
+  margin: 0 auto;
+  width:1200px;
+  /* border:1px #899caa solid; */ /* height:380px; */
+}
+</style>
+</head>
+<body>
+
+<div id="zty1">
+
+<img src="../resources/xyindex/img/xyco_logo3.png" style="float:left;" alt="重庆信圆电器有限公司" />
+
+<div id="zty1Right">
+	<div id="zty1Language">
+		<a href="javascript:;"><img src="../resources/xyindex/img/weixin.png" alt="新浪微博" />新浪微博</a>
+    &nbsp;&nbsp;&nbsp;<a href="javascript:;"><img src="../resources/xyindex/img/weibo.png" alt="腾讯微信" />腾讯微信</a>&nbsp;
+	</div>
+	<div id="zty1search">
+    <img src="../resources/xyindex/img/telnum.png" title="服务热线" alt="服务热线-023-58698756" />
+	</div>
+</div>
+
+</div>
+<div class="ztyclear"></div>
+
+<div id="zty2">
+
+<div id="ztyNavTitle">
+	<div style="margin-right:1px;padding:0 2em;">
+	<span class="text">重庆信圆电器有限公司</span>
+	</div>
+</div>
+
+<div class="ztyNav">
+  <ul>
+        <li class="msMnu_Item">
+        	<a href="index.html" class="menu">&nbsp;&nbsp;&nbsp;首页&nbsp;&nbsp;&nbsp;</a>
+            <div class="list">
+            </div>
+        </li>
+
+        <li class="msMnu_Item">
+        	<a href="javascript:;" class="menu">产品展示</a>
+            <div class="list">
+                <div>
+                    <ul class="menuList">
+                        <li class="msMnu_List">
+                            <h3>家用中央空调</h3>
+                            <ul>
+                                <li class="lis"><a href="javascript:;">美的中央空调</a></li>
+                                <li class="lis"><a href="javascript:;">富士通中央空调</a></li>
+                            </ul>
+                            <h3>地暖系列</h3>
+                            <ul>
+                                <li class="lis"><a href="javascript:;">电采暖</a></li>
+                                <li class="lis"><a href="javascript:;">水采暖</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="menuList" style="border-left:1px solid #e3e3e3;">
+                        <li class="msMnu_List">
+                            <h3>商用中央空调</h3>
+                            <ul>
+                                <li class="lis"><a href="javascript:;">多联机中央空调</a></li>
+                                <li class="lis"><a href="javascript:;">室内机</a></li>
+                            </ul>
+                            <h3>末端产品</h3>
+                            <ul>
+                                <li class="lis"><a href="javascript:;">卧式空调机箱</a></li>
+                                <li class="lis"><a href="javascript:;">排风/送风机</a></li>
+                                <li class="lis"><a href="javascript:;">杀菌装置</a></li>
+								</ul>
+                        </li>
+                    </ul>
+                    <ul class="menuList" style="border-left:#e3e3e3;">
+                        <li class="msMnu_List">
+                            <h3>热水机</h3>
+                            <ul>
+                                <li class="lis"><a href="javascript:;">大型热水机组</a></li>
+                                <li class="lis"><a href="javascript:;">家用空气能热水机</a></li>
+                                <li class="lis"><a href="javascript:;">风冷机组</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+        <li class="msMnu_Item">
+        	<a href="javascript:;" class="menu">新闻中心</a>
+            <div class="list">
+                <div>
+                    <ul class="menuList">
+                        <li class="msMnu_List">
+                            <ul>
+                                <li class="lis"><a href="javascript:;">公司新闻资讯</a></li>
+                                <li class="lis"><a href="javascript:;">最新活动消息</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+
+        <li class="msMnu_Item">
+        	<a href="javascript:;" class="menu">工程案例</a>
+            <div class="list" style="border-radius:8px 0 8px 8px;right:0;left:auto;">
+                <div>
+                    <ul class="menuList">
+                        <li class="msMnu_List">
+                            <h3>家装案例</h3>
+                            <ul>
+                                <li class="lis"><a href="javascript:;">中央空调</a></li>
+                                <li class="lis"><a href="javascript:;">空调挂机</a></li>
+                                <li class="lis"><a href="javascript:;">空气能热水器</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="menuList" style="border-left:1px solid #e3e3e3;">
+                        <li class="msMnu_List">
+                            <h3>工装案例</h3>
+                            <ul>
+                                <li class="lis"><a href="javascript:;">大型中央空调</a></li>
+                                <li class="lis"><a href="javascript:;">商用热水机组</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+        <li class="msMnu_Item">
+          <a href="javascript:;" class="menu">服务中心</a>
+            <div class="list" style="border-radius:8px 0 8px 8px;right:0;left:auto;">
+                <div>
+                    <ul class="menuList">
+                        <li class="msMnu_List">
+                            <h3>解决方案</h3>
+                            <ul>
+                                <li class="lis"><a href="javascript:;">中央空调</a></li>
+                                <li class="lis"><a href="javascript:;">地暖安装</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="menuList" style="border-left:1px solid #e3e3e3;">
+                        <li class="msMnu_List">
+                            <h3>服务指南</h3>
+                            <ul>
+                                <li class="lis"><a href="javascript:;">空调安装流程</a></li>
+                                <li class="lis"><a href="javascript:;">上门服务指南</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+        <li class="msMnu_Item">
+        	<a href="about.html" class="menu">关于信圆</a>
+            <div class="list" style="border-radius:8px 0 8px 8px;right:0;left:auto;">
+                <div>
+                    <ul class="menuList">
+                        <li class="msMnu_List">
+                            <h3>公司发展</h3>
+                            <ul>
+                                <li class="lis"><a href="javascript:;">公司理念</a></li>
+                                <li class="lis"><a href="javascript:;">公司客户</a></li>
+                                <li class="lis"><a href="javascript:;">经理致辞</a></li>
+                            </ul>
+                            <h3>人才招聘</h3>
+                            <ul>
+                                <li class="lis"><a href="javascript:;">空调安装技工</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="menuList" style="border-left:1px solid #e3e3e3;">
+                        <li class="msMnu_List">
+                            <h3>公司概况</h3>
+                            <ul>
+                                <li class="lis"><a href="javascript:;">公司简介</a></li>
+                                <li class="lis"><a href="javascript:;">公司资质</a></li>
+                            </ul>
+                            <h3>投资者关系</h3>
+                            <ul>
+                                <li class="lis"><a href="javascript:;">招商加盟</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+        <li class="msMnu_Item">
+        	<a href="about.html?c=contact_us" class="menu">联系方式</a>
+        </li>
+    </ul>
+</div>
+
+
+  <!-- 幻灯片 Starts Here -->
+  <div class="slider-wrapper theme-default">
+      <div class="ribbon"></div>
+      <div id="head_slider" class="nivoSlider">
+        <img src="../resources/xyslider/img/a1.png" alt="" />
+        <a href="javascript:alert('hi');return void(0);"> 
+          <img src="../resources/xyslider/img/a2.png" alt="" />
+        </a>
+        <img src="../resources/xyslider/img/a3.png" alt="" />
+        <img src="../resources/xyslider/img/a4.png" alt="" />
+      </div>
+  </div>
+  <!-- 幻灯片 Ends Here -->
+</div>
+
+
+<div class="ztyclear"></div>
+
+<div style="margin: 0 auto;width:1200px;height:24px;border:1px #899caa solid;"><!-- border-bottom:1px solid #899caa;  -->
+  当前位置： 首页-&gt;新闻中心
+</div>
+
+<div class="ztyclear"></div>
+
+<div id="zty3">
+
+<div style="float:left; width:122px; border:1px #899caa solid; margin-top:2px; border-bottom: none; border-right: none;">
+<table style="border-collapse: collapse; width:122px; border-color: #C0C0C0; border: 1px;">
+  <tr height="36px" style="background-color: #C0C0C0;">
+    <td align="left">
+    <font color="#0000FF">&gt;&gt;新闻中心</font>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%" valign="top" align="left" height="338px">
+    <br />&nbsp;&nbsp;&nbsp;<a href="javascript:void(0);" onclick='$("#content").load("news_zhixun.html");'>新闻资讯</a>
+    <br /><br />&nbsp;&nbsp;&nbsp;<a href="javascript:void(0);" onclick='$("#content").load("news_zhixun.html");'>行业新闻</a>
+    <br /><br />
+    </td>
+  </tr>
+</table>
+</div>
+
+<div id="content" style="float:right; width:1072px; border:1px solid #C0C0C0; margin-left:2px; margin-top: 2px; clear: right;">
+  <!-- <iframe src="news_zhixun.html" name="main" width="1072px" height="300px" scrolling="auto" frameborder="0" marginwidth="0" marginheight="0" hspace="0" vspace="0"></iframe> -->
+</div><!-- height:374px;  -->
+
+</div>
+  
+  <div class="ztyclear"></div>
+  <div id="ztyfooter">
+&copy;XINYUAN CO. 2014-2015.&nbsp;All Rights Reserved.&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">法律声明</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">渝ICP备11014061号</a>&nbsp;&nbsp;<a href="#">网站地图</a>&nbsp;&nbsp;&nbsp;&nbsp;24小时服务热线：023-67320037
+<br />
+重庆信圆电器有限公司 版权所有&nbsp;&nbsp;地址：重庆市渝中区解放西路293号&nbsp;&nbsp;邮编:400000&nbsp;&nbsp;电话：+86-18734098788&nbsp;&nbsp;传真：023-69011087
+
+  </div><br />
+
+<script type="text/javascript" src="../resources/plugins/jquery/1.9.0/js/jquery.js"></script>
+<script type="text/javascript" src="../resources/plugins/nivoSlider/js/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript" src="../resources/base/js/WebPathUtils.js"></script>
+<script type="text/javascript" src="../resources/plugins/MSNav/js/MSNav.js"></script>
+<script type="text/javascript">
+window.onload = function(){
+	var aMenu = MSNav(document, 'menu');
+	var aList = MSNav(document, 'list');
+	var i = iNow = zIndex = 0;
+	for(i=0;i<aMenu.length;i++){
+		aMenu[i].index = i;
+		aMenu[i].onmouseover = function(e){
+			var oEvent = e || event;
+			var aDiv = this.parentNode.getElementsByTagName('div');
+			var aMenuList = MSNav(this.parentNode,'menuList');
+			var iWidth = aMenuList.length * aMenuList[0].offsetWidth + 3;
+			//还原上一个动作
+			flexible();
+			if(aDiv[0].style.height==aDiv[1].offsetHeight+'px'){
+				flexible();
+			}else{
+			//当前动作
+				this.parentNode.className = 'msMnu_hove';
+				aDiv[0].style.zIndex = zIndex++;
+				if(aMenuList.length>1)aDiv[0].style.width = iWidth + 'px';
+				msNavDoMove(aDiv[0], {height:aDiv[1].offsetHeight});
+			}
+			//记住上一个
+			iNow = this.index;
+			oEvent.cancelBubble = true;
+		};
+	}
+	document.onclick = function(){flexible();};
+	function flexible(){
+		aList[iNow].parentNode.className = 'msMnu_Item';
+		aList[iNow].style.zIndex = 0;
+		msNavDoMove(aList[iNow], {height:0});
+	}
+};
+
+
+<!-- Note that the Nivo Slider uses the $(window).load() function and not $(document).ready(). -->
+$(window).load(function () {
+  $('#head_slider').nivoSlider({
+    effect: 'random', // Specify sets like: 'fold,fade,sliceDown'
+    slices: 15, // For slice animations
+    boxCols: 8, // For box animations
+    boxRows: 4, // For box animations
+    animSpeed: 500, // Slide transition speed
+    pauseTime: 3000, // How long each slide will show
+    startSlide: 0, // Set starting Slide (0 index)
+    directionNav: true, // Next & Prev navigation
+    controlNav: false, // 1,2,3... navigation
+    controlNavThumbs: false, // Use thumbnails for Control Nav
+    pauseOnHover: true, // Stop animation while hovering
+    manualAdvance: false, // Force manual transitions
+    prevText: 'Prev', // Prev directionNav text
+    nextText: 'Next', // Next directionNav text
+    randomStart: false, // Start on a random slide
+    beforeChange: function () {}, // Triggers before a slide transition
+    afterChange: function () {}, // Triggers after a slide transition
+    slideshowEnd: function () {}, // Triggers after all slides have been shown
+    lastSlide: function () {}, // Triggers when last slide is shown
+    afterLoad: function () {} // Triggers when slider has loaded
+  });
+});
+
+var c = WebPathUtils.getParam("c");
+if(c!='') {
+	$("#content").load(c+".html");
+} else {
+	$("#content").load("news_zhixun.html");
+}
+</script>
+</body>
+</html>
